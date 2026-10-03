@@ -6,7 +6,7 @@ function [ChannelImage, channel_len] = getChannels(Image,theta_brain,theta_profi
     end
     
 
-    load('20210313_MPRAGE\ChannelImage_sos.mat','ChannelImage');
+    load('ChannelImage_sos.mat','ChannelImage');
     profiles = ChannelImage;
 
     N = size(profiles,1);
